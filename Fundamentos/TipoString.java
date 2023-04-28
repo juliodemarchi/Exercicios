@@ -19,7 +19,9 @@ public class TipoString {
         var idade = 33;
         var salario = 12345.987;
 
-        System.out.println("Nome: " + nome + " Sobrenome: " + sobrenome);
+        System.out.println(
+                "Nome: " + nome + "\nSobrenome: " + sobrenome + "\nIdade: " + idade + "\nSalario: " + salario + "\n\n");
+        System.out.Printf("Nome: %s %s", nome, sobrenome);
 
     }
 }
