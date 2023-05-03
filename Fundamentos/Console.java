@@ -18,10 +18,18 @@ public class Console {
 
         Scanner entrada = new Scanner(System.in);
 
-        System.out.println("Digite o seu nome: ");
+        System.out.print("Digite o seu nome: ");
         String nome = entrada.nextLine();
 
-        System.out.println("\n\\nNome = " + nome);
+        System.out.print("Digite o seu sobrenome: ");
+        String sobrenome = entrada.nextLine();
+
+        System.out.print("Digite a sua idade: ");
+        int idade = entrada.nextInt();
+
+        System.out.println("%s %s tem %d anos.%n", nome, sobrenome, idade);
+
+        entrada.close();
 
     }
 }
