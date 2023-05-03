@@ -13,8 +13,8 @@ public class Console {
         System.out.println("como é?");
 
         System.out.printf("Megasena: %d %d %d %d %d %d", 1, 2, 3, 4, 5, 6);
-        System.out.printf(" Salario: %.1f", 1234.5678);
-        System.out.printf(" Nome: %s%n", "João");
+        System.out.printf("Salario: %.1f", 1234.5678);
+        System.out.printf("Nome: %s%n", "João");
 
         Scanner entrada = new Scanner(System.in);
 
@@ -27,7 +27,7 @@ public class Console {
         System.out.print("Digite a sua idade: ");
         int idade = entrada.nextInt();
 
-        System.out.println("%s %s tem %d anos.%n", nome, sobrenome, idade);
+        System.out.printf("%s %s tem %d anos.%n", nome, sobrenome, idade);
 
         entrada.close();
 
