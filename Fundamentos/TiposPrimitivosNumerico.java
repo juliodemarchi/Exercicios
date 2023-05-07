@@ -7,10 +7,10 @@ public class TiposPrimitivosNumeros {
         double a = 1; // implicita
         System.out.println(a);
 
-        float b = (float) 1.98736478; // explicita ST
+        float b = (float) 1.258753951456; // explicita ST
         System.out.println(b);
 
-        int c = 4;
+        int c = 340;
         byte d = c;
         System.out.println(d);
 
