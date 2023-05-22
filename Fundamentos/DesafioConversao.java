@@ -1,4 +1,4 @@
-ackage io.github.jiangdequan;
+package io.github.jiangdequan;
 
 import java.util.Scanner;
 
